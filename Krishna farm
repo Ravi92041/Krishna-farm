@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krishna Farm - शुद्धता का भरोसा</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fffef5; margin: 0; }
+    header { background-color: #2e7d32; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 10px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .product { background: #f5f5f5; padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+    footer { background: #2e7d32; color: white; text-align: center; padding: 10px; }
+    a.button {
+      background: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .logo {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="krishna-logo.png" alt="Krishna Dairy Logo" class="logo">
+  <h1>Krishna Farm</h1>
+  <p>शुद्ध दूध, चीज़ और घी - अब पटना में</p>
+  <nav>
+    <a href="#about">हमारे बारे में</a>
+    <a href="#products">प्रोडक्ट्स</a>
+    <a href="#contact">संपर्क करें</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>हमारे बारे में</h2>
+  <p>Krishna Farm, Ranipur Murcha Pul, Patna City में स्थित है। हम ताज़ा गाय और भैंस का दूध, देशी घी और घरेलू चीज़ (cheese) उपलब्ध कराते हैं। हमारी प्राथमिकता है 100% शुद्धता और समय पर डिलीवरी।</p>
+  <p><strong>Owner:</strong> श्री रवि यादव (Ravi Yadav)</p>
+</section>
+
+<section id="products">
+  <h2>हमारे प्रोडक्ट्स</h2>
+
+  <div class="product">
+    <h3>गाय/भैंस का दूध</h3>
+    <p>₹60-₹70 प्रति लीटर<br>हर सुबह ताज़ा डिलीवरी</p>
+  </div>
+
+  <div class="product">
+    <h3>देशी घी</h3>
+    <p>₹850 प्रति किलो<br>घर की बनी गुणवत्ता</p>
+  </div>
+
+  <div class="product">
+    <h3>ताज़ा चीज़ (Cheese)</h3>
+    <p>₹500 प्रति किलो<br>बिना केमिकल के बना</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>संपर्क करें</h2>
+  <p>📍 लोकेशन: Ranipur Murcha Pul, Patna City</p>
+  <p>📞 कॉल या WhatsApp: <a href="https://wa.me/919204146843" class="button">9204146843</a></p>
+  <br><br>
+  <a href="https://wa.me/919204146843?text=हमें+Krishna+Farm+से+दूध%2C+घी+या+चीज़+ऑर्डर+करना+है" class="button" target="_blank">📱 WhatsApp पर ऑर्डर करें</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Krishna Farm | सभी अधिकार सुरक्षित</p>
+</footer>
+
+</body>
+</html>
